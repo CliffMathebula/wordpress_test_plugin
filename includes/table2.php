@@ -19,6 +19,7 @@ if ($ip !== 'view all') {
                 <th><small>Longitude</small></th>
                 <th><small>Geoname ID<small></th>
                 <th><small>Capital</small></th>
+                <th><small>Ip Addr</small></th>
             </tr>
         </thead>
         <tbody>
@@ -61,9 +62,10 @@ if ($ip !== 'view all') {
                 <td><small><?php echo $region_name; ?></small></td>
                 <td><small><?php echo $city; ?></small></td>
                 <td><small><?php echo $zip; ?></small></td>
-                <td><small><?php echo $capital; ?></small></td>
                 <td><small><?php echo $latitude; ?></small></td>
                 <td><small><?php echo $longitude; ?></small></td>
+                <td><small><?php echo $geoname_id; ?></small></td>                
+                <td><small><?php echo $capital; ?></small></td>
                 <td><small><?php echo $ip; ?></small></td>
 
             </tr>
