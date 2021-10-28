@@ -81,18 +81,18 @@ if ($ip !== 'view all') {
 <table class="table table-striped" name="all_results" id="all_results">
             <thead>
                 <tr>
-                    <th>id</th>
-                    <th>Date Created</th>
-                    <th>Name</th>
-                    <th>Job Description</th>
-                    <th>User Email </th>
-                    <th>Continent Name </th>
-                    <th>Country Name </th>
-                    <th>Region Name</th>
-                    <th>City</th>
-                    <th>Capital</th>
-                    <th>Latitude</th>
-                    <th>Longitude</th>
+                    <th><small>id</small></th>
+                    <th><small>Date Created</small></th>
+                    <th><small>Name</small></th>
+                    <th><small>Job Description</small></th>
+                    <th><small>User Email</small></th>
+                    <th><small>Continent Name</small></th>
+                    <th><small>Country Name</small></th>
+                    <th><small>Region Name</small></th>
+                    <th><small>City</small></th>
+                    <th><small>Capital</small></th>
+                    <th><small>Latitude</small></th>
+                    <th><small>Longitude</small></th>
                 </tr>
             </thead>
             <tbody>
@@ -137,18 +137,18 @@ if ($ip !== 'view all') {
                     $capital = $api_result['location']['capital'];
                 ?>
                     <tr>
-                        <td><?php echo $id; ?></td>
-                        <td><?php echo $created; ?></td>
-                        <td><?php echo $name; ?></td>
-                        <td><?php echo $jobdesc; ?></td>
-                        <td><?php echo $email; ?></td>
-                        <td><?php echo $conti_name; ?></td>
-                        <td><?php echo $contry_name; ?></td>
-                        <td><?php echo $region_name; ?></td>
-                        <td><?php echo $city; ?></td>
-                        <td><?php echo $capital; ?></td>
-                        <td><?php echo $latitude; ?></td>
-                        <td><?php echo $longitude; ?></td>
+                        <td><small><?php echo $id; ?></small></td>
+                        <td><small><?php echo $created; ?></small></td>
+                        <td><small><?php echo $name; ?></small></td>
+                        <td><small><?php echo $jobdesc; ?></small></td>
+                        <td><small><?php echo $email; ?></small></td>
+                        <td><small><?php echo $conti_name; ?></small></td>
+                        <td><small><?php echo $contry_name; ?></small></td>
+                        <td><small><?php echo $region_name; ?></small></td>
+                        <td><small><?php echo $city; ?></small></td>
+                        <td><small><?php echo $capital; ?></small></td>
+                        <td><small><?php echo $latitude; ?></small></td>
+                        <td><small><?php echo $longitude; ?></small></td>
                     </tr>
 
                 <?php
